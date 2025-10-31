@@ -1,0 +1,266 @@
+body{
+    background-color:#1E202B; 
+}
+.navbar{
+    background-color:#1E202B;
+}
+
+.weatherLogo h2{
+     font-size: 16px;
+     font-weight: 700;
+}
+.weatherLogo h6{
+    font-size: 10px;
+    font-weight: 300;
+}
+.nav-item .active{
+    border: #039FD9 2px solid;
+    border-radius: 25px;
+    padding: 3px 20px;
+    color: #039FD9!important;
+}
+
+.nav-item a{
+    padding:3px 20px!important; 
+    transition: border-color 0.3s, color 0.3s;
+    color: white; 
+    margin: 15px;
+}
+
+.nav-item:hover a{
+    border: #039FD9 2px solid;
+    border-radius: 25px;
+    padding:3 20px!important;
+    margin: 15px;
+    color: #039FD9!important;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.banner{
+    position: relative;
+}
+.input{
+    position:absolute;
+    width: 70%;
+    height: 15%;
+    border: 0 solid black;
+    border-radius: 25px;
+    background-color: #1E202B;
+    color: white;
+    padding: 25px;
+}
+.btn{
+    position: absolute;
+    background-color:#039FD9;
+    left:79%;
+    border-radius: 25px;
+    padding: 5px 27px;
+    color: white;
+}
+.btn:hover{
+    background-color:#039FD9;  
+    color: white;
+}
+
+.head{
+    padding: 11px 20px;
+    background-color: #2D303D;
+    border: 0px solid transparent;
+    border-radius: 10px 10px 0 0; 
+
+}
+.head h5{
+    font-size: 14px;
+}
+.middle{
+    background-color: #222530;
+    padding: 12px 20px;
+    border: 0px solid transparent;
+    border-radius: 10px 10px 0 0; 
+}
+.middle h5{
+    font-size: 14px;
+}
+
+.body{
+    padding: 3px 20px;
+    background-color:#323544;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bodyMiddle{
+    padding: 3px 20px;
+    background-color:#262936;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 10px 10px;
+}
+.mail{
+    background-color: #262936;
+}
+
+
+
+.mailInput{
+    position:relative;
+    width: 45%;
+    height: 15%;
+    border: 0 solid black;
+    border-radius: 25px;
+    background-color: #1E202B;
+    color: white;
+    padding: 16px;
+}
+
+.btnMail{
+    position:relative;
+    background-color:#039FD9;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    padding: 8px 27px;
+    color: white;
+    bottom:27%;
+    right: 14%;
+}
+
+/* Define a custom CSS class for circular icons */
+.circle-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.icon{
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#039FD9!important;
+    color:#222530;
+    margin: 5px;
+    padding: 5px;
+    transition:all 0.5s ;
+    -webkit-transition:all 0.5s ;
+    -moz-transition:all 0.5s ;
+    -ms-transition:all 0.5s ;
+    -o-transition:all 0.5s ;
+}
+
+.icon:hover{
+    background-color:#222530!important;
+    color:#039FD9!important;
+cursor: pointer;
+}
+
+
+.homeNav{
+    margin:auto;
+    margin-bottom: 10px;
+    background-color: #262936!important;
+    width:70%;
+    border: 0px solid black;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 8px 10px;
+}
+
+.homeNav a{
+    margin-left: 15px;
+    text-decoration: none;
+    Color:#bfc1c8;
+}
+.homeNav a:hover{
+    text-decoration:underline;
+}
+
+.homeNav p{
+    color: white;
+}
+
+.box{
+    margin-top: 30px;
+    width: 70%;
+    height: 45vh;
+    background-color:#262936;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 60px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.info {
+
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.icon2 {
+    margin-bottom: 13px;
+    margin-right: 10px;
+    color: #039FD9;
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 50vh;
+}
+
+.form-group {
+    flex-basis: calc(50% - 10px); 
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #bfc1c8;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.form-group:hover input{
+    border: 2px solid #039FD9;
+}
+
+.message textarea{
+    padding: 10px;
+    width: 320%;
+    height: 15vh;
+    border: 2px solid #bfc1c8;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.message:hover textarea{
+    border: 2px solid #039FD9;
+}
+.submitBtn{
+
+    position: absolute;
+    bottom:0px;
+
+}
+
+
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <section id="home">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand text-light ms-5 p-5 d-flex" href="#"><i class="fa-solid fa-cloud fa-2xl text-light pe-3"></i><div class="weatherLogo">
+                <h2>Weather</h2>
+                <h6>Tagline goes here</h6>
+              </div></a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto  ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light p-2" aria-current="page" href="index.html"  id="home">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light p-2" href="#">news</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light p-2" href="#">live cameras</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light p-2" href="#">live Photos</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light p-2" href="contact.html"  id="contact">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="banner d-flex justify-content-center align-items-center">
+            <img src="banner.png" class="w-100">
+            <input type="text" class="input" placeholder="find your location....">
+            <button class="btn">find</button>
+
+        </div>
+        <div class="container weatherBoxes mb-5">
+            <div class="cards row g-lg-0 g-sm-2" id="rowData">
+            </div>
+        </div>
+        <div class="container-fluid mail">
+            <div class="row ps-5">
+                <div class="col-md-8 mt-5 ps-5">
+                    <form>
+                        <input type="text" class="mailInput" placeholder="Enter your Mail to subscribe">
+                        <input type="submit" class="btnMail" value="subscribe">
+                        <p class="text-light copy pt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1 p-5">
+                    <div class="circle-icons">
+                        <i class="fa-brands fa-facebook  icon"></i>
+                        <i class="fa-brands fa-twitter fa-xs icon"></i>
+                        <i class="fa-brands fa-google-plus icon"></i>
+                        <i class="fa-brands fa-pinterest icon"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+ </section> 
+
+    
+
+
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
